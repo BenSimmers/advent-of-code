@@ -2,7 +2,7 @@ def CountingCalories():
     with open("input.txt") as file:
         elves = []
         elf = 0
-        for c in [line.rstrip() for line in filecl.readlines()]:
+        for c in [line.rstrip() for line in file.readlines()]:
             if c:
                 elf += int(c)
             else:
@@ -19,6 +19,5 @@ def CountingCalories():
     # 5. Print the sum of the top 3 elves
 # Path: main.py
 
-if __name__ == "__main__":
-    CountingCalories()
+CountingCalories()
 
