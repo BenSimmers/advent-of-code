@@ -11,13 +11,10 @@ def CountingCalories():
         print(max(elves))
         print(sum(sorted(elves, reverse=True)[0:3]))
 
-
     # 1. Read the input file
     # 2. Create a list of elves
     # 3. Add the calories of each elf
     # 4. Print the max calories
     # 5. Print the sum of the top 3 elves
 # Path: main.py
-
 CountingCalories()
-
